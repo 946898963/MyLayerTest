@@ -4,13 +4,14 @@
 
 仿照API Demos里面的示例，学习如何使用Layer,代码如下
 
-canvas.drawColor(Color.WHITE);
-mPaint.setColor(Color.BLUE);
-canvas.drawCircle(150, 150, 100, mPaint);
-canvas.saveLayerAlpha(0, 0, 400, 400, 255, LAYER_FLAGS);
-mPaint.setColor(Color.RED);
-canvas.drawCircle(200, 200, 100, mPaint);
-canvas.restore();
+canvas.drawColor(Color.WHITE); 
+mPaint.setColor(Color.BLUE); 
+canvas.drawCircle(150, 150, 100, mPaint); 
+canvas.saveLayerAlpha(0, 0, 400, 400, 255, LAYER_FLAGS); 
+mPaint.setColor(Color.RED); 
+canvas.drawCircle(200, 200, 100, mPaint); 
+canvas.restore(); 
+
 
 
 Canvas.saveLayerAlpha(float left, float top, float right, float bottom, int alpha, int saveFlags)：
