@@ -19,8 +19,13 @@ Canvas.saveLayerAlpha(float left, float top, float right, float bottom, int alph
 在onDraw方法中绘制两个相交的圆，这两个圆位于不同的图层。然后将后面图层的透明度设置我0~255不同数值
 
 当透明度设置为0,即完全透明时
+
 ![](http://github.com/946898963/MyLayerTest/raw/master/fulutupian/0.png)
+
 当透明度设置位127，即透明时
+
 ![](http://github.com/946898963/MyLayerTest/raw/master/fulutupian/127.png)
+
 当透明度设置Wie255,即完全不透明时
+
 ![](http://github.com/946898963/MyLayerTest/raw/master/fulutupian/255.png) 
